@@ -1,0 +1,53 @@
+{
+    // Editor Settings
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": false,
+    "[plaintext]": {
+        "editor.quickSuggestions": false
+    },
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "editor.quickSuggestionsDelay": 100,
+    
+    // Workbench Settings
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.editor": "json",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "vscode-icons",
+    "breadcrumbs.enabled": false,
+    
+    // Debug & Terminal Settings
+    "debug.console.fontFamily": "Hack",
+    "debug.console.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeight": "500",
+   
+    // Zen Mode Settings
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    
+    // Python Settings
+    "python.pythonPath": "/Users/manishgupta/anaconda3/bin/python",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    
+    // Code-Runner Settings
+    "code-runner.executorMap": {
+        "python": "$pythonPath -u $fullFileName"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+}
