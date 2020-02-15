@@ -17,7 +17,6 @@
     // Workbench Settings
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.editor": "json",
-    "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Night Owl",
     "workbench.iconTheme": "vscode-icons",
@@ -36,7 +35,7 @@
     "zenMode.hideTabs": false,
     
     // Python Settings
-    "python.pythonPath": "/Users/manishgupta/anaconda3/bin/python",
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3.7",
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "python.formatting.provider": "black",
     "python.linting.enabled": true,
@@ -50,4 +49,6 @@
     "code-runner.showExecutionMessage": false,
     "code-runner.ignoreSelection": true,
     "code-runner.saveFileBeforeRun": true,
+    "git.ignoreMissingGitWarning": true,
+    "vsicons.dontShowNewVersionMessage": true,
 }
